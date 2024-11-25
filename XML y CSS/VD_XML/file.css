@@ -1,0 +1,23 @@
+profesor {
+    padding: 30px;
+    margin: 30px;
+    border: 4px black solid;
+    width: 40%;
+}
+
+nombre, apellido {
+    font-size: 30px;
+}
+
+departamento {
+    padding-top: 20px;
+    display: block;
+    font-weight: bold;
+}
+
+cargo {
+    font-style: italic;
+    padding-left: 10px;
+}
+
+cargo:after {content:",";}
