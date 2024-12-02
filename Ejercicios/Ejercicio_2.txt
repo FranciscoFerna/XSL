@@ -1,0 +1,14 @@
+cat /root/prediccion/dia[@fecha='2024-12-04']/temperatura/maxima
+cat /root/prediccion/dia[@fecha='2024-12-04']/temperatura/minima
+
+cat /root/prediccion/dia[@fecha='2024-12-02']/temperatura/dato[@hora='18']
+
+cat /root/prediccion/dia[@fecha='2024-12-02']/estado_cielo[@periodo='00-24']
+
+cat /root/prediccion/dia[@fecha='2024-12-03']/cota_nieve_prov[@periodo='00-24']
+
+cat /root/prediccion/dia[@fecha='2024-12-02']/humedad_relativa/dato[@hora='18']
+
+cat /root/prediccion/dia/uv_max
+
+cat /root/prediccion/dia/@fecha
