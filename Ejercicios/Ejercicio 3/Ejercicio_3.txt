@@ -1,9 +1,0 @@
-cat //libro[autor="Mario Vargas Llosa"]
-
-cat //libro[precio=precio<30.00]
-
-cat //libro[fechaPublicacion]
-
-cat //libro/titulo
-
-cat //libro[last()]
